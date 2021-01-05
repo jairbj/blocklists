@@ -14,7 +14,6 @@ if File.exists?(filename)
     server_list << line unless line.start_with? "#"
   end
 end
-server_list
 
 # Reads the new file
 require 'open-uri'
